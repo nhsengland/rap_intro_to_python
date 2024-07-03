@@ -122,7 +122,7 @@ balloons = 99
 print("I have " + str(balloons) + " red balloons!"
 ```
 
-There's a better way to do this, using an f-string. F-strings (formatted strings) are a new-ish addition to python (it's always being improved!). They are a way you can insert a variable into a string. This is a much neater way as you don't need to add multiple strings together.
+There's a better way to do this, using an f-string. F-strings (formatted strings) are a new-ish addition to python (it's always being improved!). It's a nice a way you can insert a variable into a string and this is much neater as you don't need to add multiple strings together.
 
 ```
 balloons = 99
@@ -186,8 +186,8 @@ not(a == 10 and b == 20)
 
 ## How to Exit Python
 
-Simple - just type 
-```quit()```
+Simple - just type  ```quit()```
+
 ![](images/quit.png)
 
 
@@ -197,12 +197,12 @@ Next time, we are going to do these things inside a python file. It's a lot easi
 
 In order to get some more practice using these: before the next session please read these pages
 
-Variables: https://www.w3schools.com/python/python_variables.asp (Just cover the first one in this section)
-Data Types: https://www.w3schools.com/python/python_datatypes.asp
-Numbers: https://www.w3schools.com/python/python_numbers.asp
-Casting: https://www.w3schools.com/python/python_casting.asp
-String Concatenation: https://www.w3schools.com/python/python_strings_concatenate.asp
-F-Strings: https://www.w3schools.com/python/python_strings_format.asp
+- Variables: https://www.w3schools.com/python/python_variables.asp (Just cover the first one in this section)
+- Data Types: https://www.w3schools.com/python/python_datatypes.asp
+- Numbers: https://www.w3schools.com/python/python_numbers.asp
+- Casting: https://www.w3schools.com/python/python_casting.asp
+- String Concatenation: https://www.w3schools.com/python/python_strings_concatenate.asp
+- F-Strings: https://www.w3schools.com/python/python_strings_format.asp
 
 
 
