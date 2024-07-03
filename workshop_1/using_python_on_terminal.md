@@ -150,6 +150,34 @@ print(f"I have {balloons} red balloons")
 
 *Without changing the value of balloons, how could you print "I have 98 red balloons?"*
 
+# Comparison Operators
+
+It can be really handy to check comparisons between variables. We can use comparison operators to do this and they will return a Boolean value (True or False). Note that to compare if two values are equal to each other we use ==, not =, this is because this would just reassign the variable!
+
+![](images/comparison.png)
+
+Try comparing two variabless using the operators in the image above.
+
+![](images/comparing_variables.png)
+
+## Logical Operators
+
+Logical Operators are used to combine comparison statements. They are ```and```, ```or``` and ```not```. 
+Try out the ones below - what results do you think you will get?
+
+```
+a == 10
+b == 20
+a >= 1 and b >= 10
+???
+a >= 100 or b <= 100
+???
+not(a == 10 and b == 20)
+???
+
+```
+
+
 ## How to Exit Python
 
 Simple - just type 
