@@ -1,4 +1,4 @@
-# Using python on the terminal
+# Using Python on the Terminal
 
 Before we look at using python files, first we are going to use python in the terminal.
 
@@ -14,7 +14,7 @@ python --version
 ![](images/python_version.png.png)
 
 
-## Running python
+## Running Python
 Type into your terminal:
 
 ```
@@ -46,15 +46,15 @@ print("Hello World!")
 
 ![](images/printing_strings.png)
 
-This is all well and good, but what about storing variables?
+This is all well and good, but what about storing values?
 
-Try storing a variable *greeting* by assigning it, using the = operator
+Try storing a phrase and call it *greeting* by assigning it, using the = operator. We would now call *greeting* a variable.
 
 ```
 greeting = "Hello World!"
 ```
 
-Try running the "greeting" variable. Also check out the difference in returnign the variable and printing the variable. Note that when you're printing, you don't use the quotations marks. If you do, it will just print what is inside the quotation marks and not the value stored inside the variable!
+Try running the "greeting" variable. Also check out the difference in returning the variable and use the print function with the variable. Note that when you're printing, you don't use the quotations marks. If you do, it will just print what is inside the quotation marks and not the value stored inside the variable!
 
 ![](images/storing_variable.png)
 
@@ -62,7 +62,7 @@ You can overwrite variables so they will store something different. Let's try th
 
 ![](images/overwrite_variable.png)
 
-We don't have to just store strings (strings are anything enclosed in quotation marks "This is a string", "?/+352%" is also a string), we can store numbers too! This is handy because we can perform mathemtical operations with them. Try storing some numbers and performing some sums.
+We don't have to just store strings (strings are anything enclosed in quotation marks *"This is a string"*, *"?/+352%"* is also a string), we can store numbers too! This is handy because we can perform mathematical operations with them. Try storing some numbers as variables and performing some sums.
 
 ![](images/numbers_as_variables.png)
 
@@ -87,22 +87,22 @@ type(a)
 ```
 
 
-## How to exit python and return to yuor normal terminal
+## How to Exit Python
 
 Simple - just type 
 ```quit()```
-![]](images/quit.png)
+![](images/quit.png)
 
 
 ## Summary
 
 We have:
 
-    - Opened python in the terminal
-    - Used it to perform simple arithmetic problems
-    - Printed strings to the terminal
-    - Stored variables and printed them
-    - Used variables to perform arithmetic problems
-    - Seen our first error
+- Opened python in the terminal
+- Used it to perform simple arithmetic problems
+- Printed strings to the terminal
+- Stored variables and printed them
+- Used variables to perform arithmetic problems
+- Seen our first error
 
-Next time, we are going to do these things inside a python file. It's a lot easier to develop code in a file and then execute it, rather than executing it one line at a time
+Next time, we are going to do these things inside a python file. It's a lot easier to develop code in a file and then execute it, rather than executing it one line at a time.
