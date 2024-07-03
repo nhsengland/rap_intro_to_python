@@ -68,7 +68,7 @@ We don't have to just store strings (strings are anything enclosed in quotation 
 
 ## Types
 
-String is a type of variable, and there a few variable types. Some language require you to be explicit and always state what type of variable each variable is, but python will figure it out!
+String is a type of variable, and there a few variable types. Some languages require you to be explicit and always state what type of variable each variable is, but python will figure it out!
 
 ![](images/variable_types.png)
 
@@ -82,13 +82,15 @@ greeting - a
 
 Here: we get an error. Errors are really useful! We're told that this a "TypeError", which is do to with the variable types, and that it's because the operator "-" isn't supported for variables of type string (str) and integer (int).
 
+We can find out the type of a variable by running:
+
 ```
 type(a)
 ```
 
 ## String manipulation
 
-While we can adds strings to numbers, we can add them to each other, and multiply them.
+While we can't adds strings and numbers togehter, we can add them to each other, and multiply them.
 
 ```
 greeting = "Hi there, my name is"
@@ -104,13 +106,36 @@ We can also repeat strings - make sure you consider the spaces!
 
 ```
 greeting = "'ello "
-greeting_end = " - what's all this then?"
+greeting_end = "- what's all this then?"
 ```
 
 ![](images/repeating_strings.png)
+
 *Strings can be declared using single quotes too, but if you stick to double quotes you don't need to mess around in order to have apostrophes in your string*
 
-We can change the string too:
+### F-strings
+
+What happens if we want to insert a number into our string? We can force an integer to change types to a string by using the "str()" method. This is called casting. Try our the example below.
+
+```
+balloons = 99
+print("I have " + str(balloons) + " red balloons!"
+```
+
+There's a better way to do this, using an f-string. F-strings (formatted strings) are a new-ish addition to python (it's always being improved!). They are a way you can insert a variable into a string. This is a much neater way as you don't need to add multiple strings together.
+
+```
+balloons = 99
+print(f"I have {balloons} red balloons")
+```
+
+![](images/f_strings.png)
+
+
+
+### Applying methods to strings
+
+We can change the string too by applying a method (a method is something that is applied to an object (a variable is a type of object))
 
 ```
 sentence = "I feel so "
@@ -128,35 +153,16 @@ Try returning that now:
 
 ![](images/uppercase_string.png)
 
-We can use .lower() as well, and that'll make everything lowercase.
+We can use ```.lower()``` as well, and that'll make everything lowercase.
 
-## F-strings
 
-What happens if we want to insert a number into our string? We can force an integer to change types to a string by using the "str()" method. Try our the example below.
+## Comparison Operators
 
-```
-balloons = 99
-print("I have " + str(balloons) + " red balloons!"
-```
-
-There's a better way to do this, using an f-string. F-strings (formatted strings) are a new-ish addition to python (it's always being improved!). They are a way you can insert a variable into a string. This is a much neater way as you don't need to add multiple strings together.
-
-```
-balloons = 99
-print(f"I have {balloons} red balloons")
-```
-
-![](images/f_strings.png)
-
-*Without changing the value of balloons, how could you print "I have 98 red balloons?"*
-
-# Comparison Operators
-
-It can be really handy to check comparisons between variables. We can use comparison operators to do this and they will return a Boolean value (True or False). Note that to compare if two values are equal to each other we use ==, not =, this is because this would just reassign the variable!
+It can be really handy to check comparisons between variables. We can use comparison operators to do this and they will return a *Boolean* value (True or False). Note that to compare if two values are equal to each other we use ==, not =, this is because this would just reassign the variable!
 
 ![](images/comparison.png)
 
-Try comparing two variabless using the operators in the image above.
+Try comparing two variables using the operators in the image above.
 
 ![](images/comparing_variables.png)
 
@@ -185,18 +191,18 @@ Simple - just type
 ![](images/quit.png)
 
 
-## Summary
-
-We have:
-
-- Opened python in the terminal
-- Used it to perform simple arithmetic problems
-- Printed strings to the terminal
-- Stored variables and printed them
-- Used variables to perform arithmetic problems
-- Seen our first error
-
 Next time, we are going to do these things inside a python file. It's a lot easier to develop code in a file and then execute it, rather than executing it one line at a time.
 
 ## Exercises
+
+In order to get some more practice using these: before the next session please read these pages
+
+Variables: https://www.w3schools.com/python/python_variables.asp (Just cover the first one in this section)
+Data Types: https://www.w3schools.com/python/python_datatypes.asp
+Numbers: https://www.w3schools.com/python/python_numbers.asp
+Casting: https://www.w3schools.com/python/python_casting.asp
+String Concatenation: https://www.w3schools.com/python/python_strings_concatenate.asp
+F-Strings: https://www.w3schools.com/python/python_strings_format.asp
+
+
 
