@@ -86,6 +86,69 @@ Here: we get an error. Errors are really useful! We're told that this a "TypeErr
 type(a)
 ```
 
+## String manipulation
+
+While we can adds strings to numbers, we can add them to each other, and multiply them.
+
+```
+greeting = "Hi there, my name is"
+name = "Jennifer"
+```
+
+![](images/adding_strings.png)
+
+Note here how we had to add in an extra space to make the sentence make sense, when adding strings Python will just stick them together!
+
+
+We can also repeat strings - make sure you consider the spaces!
+
+```
+greeting = "'ello "
+greeting_end = " - what's all this then?"
+```
+
+![](images/repeating_strings.png)
+*Strings can be declared using single quotes too, but if you stick to double quotes you don't need to mess around in order to have apostrophes in your string*
+
+We can change the string too:
+
+```
+sentence = "I feel so "
+feeling = "angry"
+sentence + feeling
+```
+Not quote angry enough....
+Let's make it all uppercase
+
+```
+feeling = feeling.uppercase()
+```
+
+Try returning that now:
+
+![](images/uppercase_string.png)
+
+We can use .lower() as well, and that'll make everything lowercase.
+
+## F-strings
+
+What happens if we want to insert a number into our string? We can force an integer to change types to a string by using the "str()" method. Try our the example below.
+
+```
+balloons = 99
+print("I have " + str(balloons) + " red balloons!"
+```
+
+There's a better way to do this, using an f-string. F-strings (formatted strings) are a new-ish addition to python (it's always being improved!). They are a way you can insert a variable into a string. This is a much neater way as you don't need to add multiple strings together.
+
+```
+balloons = 99
+print(f"I have {balloons} red balloons")
+```
+
+![](images/f_strings.png)
+
+*Without changing the value of balloons, how could you print "I have 98 red balloons?"*
 
 ## How to Exit Python
 
@@ -106,3 +169,6 @@ We have:
 - Seen our first error
 
 Next time, we are going to do these things inside a python file. It's a lot easier to develop code in a file and then execute it, rather than executing it one line at a time.
+
+## Exercises
+
