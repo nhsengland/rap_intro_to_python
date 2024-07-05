@@ -115,7 +115,7 @@ greeting_end = "- what's all this then?"
 
 ### F-strings
 
-What happens if we want to insert a number into our string? We can force an integer to change types to a string by using the "str()" method. This is called casting. Try our the example below.
+What happens if we want to insert a number into our string? We can force an integer to change types to a string by using the "str()" function. This is called casting. Try our the example below.
 
 ```
 balloons = 99
@@ -135,7 +135,7 @@ print(f"I have {balloons} red balloons")
 
 ### Applying methods to strings
 
-We can change the string too by applying a method (a method is something that is applied to an object (a variable is a type of object))
+We can change the string too by applying a method (a method is a function attached to an object (a variable is a type of object))
 
 ```
 sentence = "I feel so "
@@ -203,6 +203,3 @@ In order to get some more practice using these: before the next session please r
 - Casting: https://www.w3schools.com/python/python_casting.asp
 - String Concatenation: https://www.w3schools.com/python/python_strings_concatenate.asp
 - F-Strings: https://www.w3schools.com/python/python_strings_format.asp
-
-
-
