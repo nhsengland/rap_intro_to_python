@@ -31,7 +31,7 @@
 
 # Nothing happened?
 # That's because there's nothing currently in this file being executed.
-# Everything has a # symbol in front of this
+# Everything has a # symbol in front of it
 # In Python, this is how you would stop code from running, and how you would "comment" your code
 # Writing comments on your code is useful because it can explain to others (and future you!) what your code is doing
 # and often more importantly, why.

@@ -14,6 +14,17 @@ while count <= 5:
 """
 
 
+# We can use break to make the loop stop. Otherwise, this loop would go on forever as the condition for it (1 + 1 == 2) is always True.
+"""
+count = 0
+while 1 + 1 == 2:
+    count = count + 1
+    print("count:", count)
+    if count == 10:
+        print("STOP!")
+        break
+"""
+
 # For:
 # For loops are much for commonly used
 # They are used for doing things a certain number of times
@@ -23,7 +34,6 @@ while count <= 5:
 for i in range(0, 10):
     print(f"I have {i} ice creams!")
 """
-
 
 
 # This is a list, it uses square brackets and each item is separated by a comma
@@ -44,4 +54,23 @@ for fruit in fruits:
         print("I love cherries!")
     else:
         print(f"Bleh! I hate {fruit}!")
+"""
+
+
+# Appending (adding to the end) on to lists
+# Syntax: list_we_are_adding_to.append(item_we_are_adding)
+"""
+numbers = [] # Empty list
+for i in range(0, 11):
+    numbers.append(i)
+print(numbers)
+"""
+
+
+# % (Modulus) Operator - returns the remainder after a division
+# We can use it to return only the even numbers (numbers which have no remainder after dividing by two)
+"""
+for i in range(1, 21):
+    if i % 2 == 0:
+        print(i)
 """

@@ -11,7 +11,7 @@ if weather == "sunny":
 """
 
 
-# Identatation is really important in python, it groups lines of code together.
+# Indentatation is really important in python, it groups lines of code together.
 # Here, we update our weather variable. The code inside the if statement won't run, but code out of it will!
 """
 weather = "rainy"
