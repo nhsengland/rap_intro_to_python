@@ -4,7 +4,8 @@ Intro to Python - by the Data Science RAP team
 This repository currently contains 2 workshops for introducing users to Python, from a very basic level.
  
 
-Workshop 1: Python on the Terminal
+
+**Workshop 1: Python on the Terminal**
 
 A markdown document with instructions on how to run python on the terminal.
 Includes learning on:
@@ -19,7 +20,7 @@ Includes learning on:
     - Logical Operators
     
     
-Workshop 2: Using python files to run code
+**Workshop 2: Using python files to run code**
 
 Includes learning on:
 
