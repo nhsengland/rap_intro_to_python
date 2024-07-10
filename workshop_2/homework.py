@@ -90,7 +90,7 @@ print I love sports!
 # For any other, you will need shorts
 
 clothing = None
-activity = swimming
+activity = "swimming"
 
 # Replace this
 # With your
@@ -116,8 +116,8 @@ while count ???? 10:
 count = 0
 my_name = ????
 while my_name == ????:
-    print(count)
     count = count + 1
+    print(count)
     if count == ????:
         ????
 """
