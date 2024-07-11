@@ -26,8 +26,8 @@ while 1 + 1 == 2:
 """
 
 # For:
-# For loops are much for commonly used
-# They are used for doing things a certain number of times
+# For loops are much more commonly used
+# They are used to loop through an iterable
 # This has iterated through the list of numbers included in the range 0-10 (this excludes 10)
 # and printed something for each one.
 """
