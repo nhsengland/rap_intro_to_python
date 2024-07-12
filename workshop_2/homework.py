@@ -5,22 +5,22 @@
 
 
 # Conditionals
-"""
+
 # Expected Output: Good morning
 time_of_day = "morning"
-if ????:
+if time_of_day == "morning":
     print("Good morning!")
-"""
 
 
-"""
+
+
 # Expected Output: Relax at home
 day = "Saturday"
 if day == "Monday":
     print("Go to work")
-elif ????:
+elif day == "Saturday":
     print("Relax at home")
-"""
+
 
 
 """
