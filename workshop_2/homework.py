@@ -5,12 +5,12 @@
 
 
 # Conditionals
-"""
+
 # Expected Output: Good morning
 time_of_day = "morning"
-if ????:
+if time_of_day == "morning":
     print("Good morning!")
-"""
+
 
 
 """

@@ -47,10 +47,10 @@
 
 
 # Storing variables and printing
-#a = 10
-#b = 20
-#a + b
-#print(a + b)
+a = 10
+b = 20
+a + b
+print(a + b)
 
 # Notice that the sum of a + b only printed once to the terminal
 # Unlike when we used python in the terminal, we explicitly have to print things when we're running from files.
@@ -59,23 +59,23 @@
 # Remember that numbers and strings don't mix, so we have to force the number to be a string (casting)
 # Replace the ???
 
-#lucky_number = ????
-#sentence = "My lucky number is " + str(lucky_number)
-#print(sentence)
+lucky_number = 6
+sentence = "My lucky number is " + str(lucky_number)
+print(sentence)
 
 # But we don't have to do that when using f-strings!
-#print(f"My lucky number is {lucky_number}")
+print(f"My lucky number is {lucky_number}")
 
 
-# Comparison Operators:
-#a = 1
-#b = 2
+#Comparison Operators:
+a = 1
+b = 2
 
-# Using , we can also print two different datatypes: strings and Boolean
-#print("a == b: ", a == b)
-#print("a != b: ", a != b)
-#print("a >= b: ", a >= b)
-#print("a <= b: ", a <= b)
+#Using , we can also print two different datatypes: strings and Boolean
+print("a == b: ", a == b)
+print("a != b: ", a != b)
+print("a >= b: ", a >= b)
+print("a <= b: ", a <= b)
 
 # Logical Operators:
 # These were and, or and not
