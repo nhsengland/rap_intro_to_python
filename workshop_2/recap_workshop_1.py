@@ -19,7 +19,7 @@
 # 
 # If you're in the root directory of this repository your path/to/file will include the folder that this file sits in
 # So therefore you would run:
-# python workshop_2/recap_workshop_1.py
+# python workshop_2/recap_workshop_1.py 
 #
 # Tip: If you start typing a folder or file, and press the Tab button, it should finish it for you (as long as you 
 # don't have more files with similar names)
