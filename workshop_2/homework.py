@@ -107,100 +107,98 @@ print(f"For {activity}, I will need to wear {clothing}")
 
 
 # Loops
-"""
+
 # Expected Output: Print numbers 1-11
 count = 0
-while count ???? 10:
-    count = count + ????
-    print(count)
-"""
-
-"""
-# Expected Output: Print numbers 1-5, breaking after 5..
-count = 0
-my_name = ????
-while my_name == ????:
+while count < 11:
     count = count + 1
     print(count)
-    if count == ????:
-        ????
-"""
 
-"""
+
+
+# Expected Output: Print numbers 1-5, breaking after 5..
+count = 0
+my_name = 5
+while my_name > count:
+    count = count + 1
+    print(count)
+    if count == my_name:
+        print(my_name)
+
+
+
 # Expected output: Print the sentence up to and including "I have 10 candies"
-for i in range(1, ????):
+for i in range(1,11):
     print(f"I have {i} candies!")
-"""
 
-"""
-Expected Output: A sentence for each sport in the list
+
+
+#Expected Output: A sentence for each sport in the list
 sports = ["Soccer", "Basketball", "Tennis", "Baseball", "Hockey"]
-for ???? in sports:
-    print(f"I like to play {????}!")
-"""
+for sports in sports:
+    print(f"I like to play {sports}!")
 
-"""
+
+
 # Expected Output: 1 sentence for each vegetable
 vegetables = ["potato", "carrot", "broccoli", "spinach"]
-for vegetable in ????:
-    if vegetable == "????":
+for vegetable in vegetables:
+    if vegetable == "carrot":
         print("Carrots are my favorite!")
     else:
         print(f"I don't like {vegetable} that much.")
-""" 
+ 
 
 
-"""
+
 # This is a nested loop, see if you can understand what it's doing
 # Expected Output: Every combination of colours and clothing
 colours = ["red", "blue", "green"]
 clothing = ["shirt", "trousers", "hat"]
 
-for colour in ???? :
-    for item in ????:
-        print(f"A {color} {item}")
-"""
+for colours in colours:
+    for item in clothing:
+        print(f"A {colours} {item}")
 
-"""
+
+
 # Expected Output: A total of 15
 numbers = [1, 2, 3, 4, 5]
 total = 0
-for ???? in ???? :
-    total = total + ????
+for numbers in numbers :
+    total = total + numbers
 print("The total is:", total)
-"""
 
-"""
+
 # Expected Output: The longest word is: dragonfruit
 words = ["apple", "banana", "cherry", "dragonfruit"]
 longest = ""
-for word in ???? :
-    if len(word) > len(????):
-        longest = ????
-print("The longest word is:", longest)
-"""
+for word in words :
+    if len(word) > len(longest):
+        longest = word
+print("The longest word is:",longest)
 
-"""
+
+
 # Expected Ouput: doubled_numbers is a list containing the doubled amount of the number in numbers.
 # Syntax of append method: list.append(element)
 numbers = [1, 2, 3, 4, 5]
 doubled_numbers = []
 for number in numbers:
-    ????.append(???? * 2)
+   doubled_numbers.append(number * 2)
 
 print(doubled_numbers)
-"""
 
 
 
-"""
+
 # Fix the mistakes:
 # Expected Output: A list of numbers from 0 - 10
-for i in range(0, 10)
-print i
-"""
+for i in range(0, 10):
+    print (i)
 
-"""
+
+
 # Task: FizzBuzz
 # A classic learning to code challenge: For the numbers 1-15, recreate the game FizzBuzz
 # Aim: Count up to 15
@@ -215,11 +213,15 @@ print i
 # 31 % 5 = 1 (31 divided by 5 would give 1 as a remainder)
 # If you're stuck, go to file "fizzbuzz_help.py" to see a suggested layout - you'll still need to fill it in!
 
-# Write your code here
-#
-#
-#
-"""
+for num in range(1, 16):
+    if num % 15 == 0:
+        print("FizzBuzz")
+    elif num % 3 == 0:
+        print("Fizz")
+    elif num % 5 == 0:
+        print("Buzz")
+    else:
+        print(num)
 
 
 # Make sure to add your changes to your branch and push them. If this is the first time you're pushing your branch you might need to tell git which remote branch you are pushing to, but it'll let you know the command to run.
