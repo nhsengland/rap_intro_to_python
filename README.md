@@ -1,7 +1,7 @@
 # rap_intro_to_python
 Intro to Python - by the Data Science RAP team
 
-This repository currently contains 2 workshops for introducing users to Python, from a very basic level.
+This repository currently contains 3 workshops for introducing users to Python, from a very basic level.
  
 
 
@@ -29,3 +29,13 @@ Includes learning on:
     - Loops
 
 And homework to reinforce these concepts.
+
+
+**Workshop 3: Functions and imports**
+
+Includes learning on:
+
+    - Notebooks
+    - Recap of workshop 2
+    - Functions
+    - Importing files

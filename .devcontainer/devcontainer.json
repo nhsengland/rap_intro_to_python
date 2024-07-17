@@ -1,0 +1,12 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "postCreateCommand": "",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-toolsai.jupyter",
+          "ms-python.python"
+        ]
+      }
+    }
+  }
