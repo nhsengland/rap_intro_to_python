@@ -37,7 +37,7 @@
 # and often more importantly, why.
 # Try deleting the # symbol from that print statement below. Make sure there is no space at the start of it.
 
-#print("Hello World")
+print("Hello World")
 
 # Once you've deleted the # symbol, try running the file again (after saving!)
 # Now, your code is being executed and Hello World will print to your terminal.
@@ -68,8 +68,8 @@
 
 
 # Comparison Operators:
-#a = 1
-#b = 2
+a = 1
+b = 2
 
 # Using , we can also print two different datatypes: strings and Boolean
 #print("a == b: ", a == b)
@@ -79,6 +79,6 @@
 
 # Logical Operators:
 # These were and, or and not
-#print("a == 1 and b == 2: ", a == 1 and b == 2)
-#print("a == 10 or b == 2: ", a == 10 or b == 2)
-#print("not b == 2: ", not b == 2)
+print("a == 1 and b == 2: ", a == 1 and b == 2)#True
+print("a == 10 or b == 2: ", a == 10 or b == 2)#True
+print("not b == 2: ", not b == 2)#False
