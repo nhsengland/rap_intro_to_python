@@ -11,7 +11,7 @@
 
 
 # 2) Now that you have created your function, you need to import the file that it's in. Do that below:
-import ???? as ????
+from ???? import ????
 
 
 # 3) Now define a list of numbers. They can be any numbers:
