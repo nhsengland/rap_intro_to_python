@@ -29,3 +29,13 @@ Includes learning on:
     - Loops
 
 And homework to reinforce these concepts.
+
+
+**Workshop 3: Functions and imports**
+
+Includes learning on:
+
+    - Notebooks
+    - Recap of workshop 2
+    - Functions
+    - Importing files
