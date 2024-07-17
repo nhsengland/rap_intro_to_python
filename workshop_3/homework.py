@@ -3,7 +3,7 @@
 # Let's put a few different things you have learned together. In this exercise you will:
 #
 # - Create a list of numbers
-# - Create a function that returns the square of a number - but put it in workshop_3/src/maths.py
+# - Create a function that returns the square of a number - but put it in workshop_3/src/maths/maths.py
 # - Loop through your list of numbers and call the function to get the square of each number, and print it
 
 # 1) First, open up the workshop_3/src/maths.py file, and create a function in there that returns the square of a number passed to it.
