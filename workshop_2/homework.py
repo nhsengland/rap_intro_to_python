@@ -5,92 +5,99 @@
 
 
 # Conditionals
-"""
+
 # Expected Output: Good morning
 time_of_day = "morning"
-if ????:
+if time_of_day=="morning":
     print("Good morning!")
-"""
 
 
-"""
+
+
 # Expected Output: Relax at home
 day = "Saturday"
 if day == "Monday":
     print("Go to work")
-elif ????:
+elif day=="Saturday":
     print("Relax at home")
-"""
 
 
-"""
+
+
 # Expected Output: Have a sandwich
 meal = "lunch"
 if meal == "breakfast":
     print("Eat some cereal")
-elif ?????:
+elif meal=="lunch":
     print("Have a sandwich")
 else:
     print("Enjoy a nice dinner")
-"""
 
 
-"""
+
+
 # Expected Output: You can enter the concert
 age = 20
 has_ticket = True
-if (???? >= 18) and ???? == ????:
+if (age >= 18) and has_ticket == True:
     print("You can enter the concert")
-elif (???? >= 18) and ???? == ????:
+elif (age >= 18) and has_ticket == False:
     print("Please buy a ticket!")
-????:
+else:
     print("You can't enter!")
-"""
 
-"""
+
+
 # Expected Output: money_in_bank = 100, has_paid_rent = True
 money_in_bank = 1000
 has_paid_rent = False
 rent_amount = 900
 # We want to check if we have paid rent already, and if we have enough money to pay it
-if ????(has_paid_rent) and ???? >= ????:
+if not(has_paid_rent) and money_in_bank >= rent_amount:
     money_in_bank = money_in_bank - rent_amount
     has_paid_rent = True
 
 print(money_in_bank)
 print(has_paid_rent)
-"""
 
 
-"""
+
+
 # Fix the mistake:
 a = 1
 b = 2
-if a + b == 3
+if a + b == 3:
     print("I love maths!")
-"""
 
 
-"""
+
+
 # Fix the mistakes
-name == Rachel
-if name == Kyle
-print I love baseball!
-else name == Lilidh
-print I love hockey
-else
-print I love sports!
-"""
+name = "Rachel"
+if name == "Kyle":
+    print ("I love baseball!")
+elif name == "Lilidh":
+    print ("I love hockey")
+else:
+    print ("I love sports!")
 
 
-"""
+
+
 # Using if/elif/else statements, update the clothing variable
 # For swimming and diving, you will need a swimsuit
 # For gymnastics, you will need a leotard
 # For any other, you will need shorts
 
 clothing = None
-activity = "swimming"
+activity = "gymnastics"
+if activity == "swimming" or activity == "diving":
+    clothing = "swimsuit"
+elif activity == "gymnastics":
+    clothing = "leotard"
+else:
+    clothing = "shorts"
+print(clothing)
 
 # Replace this
 # With your
@@ -98,103 +105,103 @@ activity = "swimming"
 
 # Try replacing the activity variable at the top, so you can check it your code is working as expected
 print(f"For {activity}, I will need to wear {clothing}")
-"""
+
 
 
 
 # Loops
-"""
+
 # Expected Output: Print numbers 1-11
 count = 0
-while count ???? 10:
-    count = count + ????
-    print(count)
-"""
-
-"""
-# Expected Output: Print numbers 1-5, breaking after 5..
-count = 0
-my_name = ????
-while my_name == ????:
+while count <= 10:
     count = count + 1
     print(count)
-    if count == ????:
-        ????
-"""
 
-"""
+
+
+# Expected Output: Print numbers 1-5, breaking after 5..
+count = 0
+my_name = "sam"
+while my_name == "sam":
+    count = count + 1
+    print(count)
+    if count == 5:
+        break
+
+
+
 # Expected output: Print the sentence up to and including "I have 10 candies"
-for i in range(1, ????):
+for i in range(1, 11):
     print(f"I have {i} candies!")
-"""
 
-"""
-Expected Output: A sentence for each sport in the list
+
+
+#Expected Output: A sentence for each sport in the list
 sports = ["Soccer", "Basketball", "Tennis", "Baseball", "Hockey"]
-for ???? in sports:
-    print(f"I like to play {????}!")
-"""
+for sport in sports:
+    print(f"I like to play {sport}!")
 
-"""
+
+
 # Expected Output: 1 sentence for each vegetable
 vegetables = ["potato", "carrot", "broccoli", "spinach"]
-for vegetable in ????:
-    if vegetable == "????":
+for vegetable in vegetables:
+    if vegetable == "carrot":
         print("Carrots are my favorite!")
     else:
         print(f"I don't like {vegetable} that much.")
-""" 
 
 
-"""
+
+
 # This is a nested loop, see if you can understand what it's doing
 # Expected Output: Every combination of colours and clothing
 colours = ["red", "blue", "green"]
 clothing = ["shirt", "trousers", "hat"]
 
-for colour in ???? :
-    for item in ????:
-        print(f"A {color} {item}")
-"""
+for colour in colours :
+    for item in clothing:
+        print(f"A {colour} {item}")
 
-"""
+
+
 # Expected Output: A total of 15
 numbers = [1, 2, 3, 4, 5]
 total = 0
-for ???? in ???? :
-    total = total + ????
+for number in numbers :
+    total = total + number
 print("The total is:", total)
-"""
 
-"""
+
+
 # Expected Output: The longest word is: dragonfruit
 words = ["apple", "banana", "cherry", "dragonfruit"]
 longest = ""
-for word in ???? :
-    if len(word) > len(????):
-        longest = ????
+for word in words :
+    if len(word) > len(longest):
+        longest = word
 print("The longest word is:", longest)
-"""
 
-"""
+
+
 # Expected Ouput: doubled_numbers is a list containing the doubled amount of the number in numbers.
 # Syntax of append method: list.append(element)
 numbers = [1, 2, 3, 4, 5]
 doubled_numbers = []
 for number in numbers:
-    ????.append(???? * 2)
+    doubled_numbers.append(number * 2)
 
 print(doubled_numbers)
-"""
 
 
 
-"""
+
+
 # Fix the mistakes:
 # Expected Output: A list of numbers from 0 - 10
-for i in range(0, 10)
-print i
-"""
+for i in range(0, 11):
+    print (i)
+
 
 """
 # Task: FizzBuzz
