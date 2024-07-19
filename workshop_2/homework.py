@@ -18,79 +18,86 @@ if time_of_day=="morning":
 day = "Saturday"
 if day == "Monday":
     print("Go to work")
-elif "":
+elif day=="Saturday":
     print("Relax at home")
 
 
 
-"""
+
 # Expected Output: Have a sandwich
 meal = "lunch"
 if meal == "breakfast":
     print("Eat some cereal")
-elif ?????:
+elif meal=="lunch":
     print("Have a sandwich")
 else:
     print("Enjoy a nice dinner")
-"""
 
 
-"""
+
+
 # Expected Output: You can enter the concert
 age = 20
 has_ticket = True
-if (???? >= 18) and ???? == ????:
+if (age >= 18) and has_ticket == True:
     print("You can enter the concert")
-elif (???? >= 18) and ???? == ????:
+elif (age >= 18) and has_ticket == False:
     print("Please buy a ticket!")
-????:
+else:
     print("You can't enter!")
-"""
 
-"""
+
+
 # Expected Output: money_in_bank = 100, has_paid_rent = True
 money_in_bank = 1000
 has_paid_rent = False
 rent_amount = 900
 # We want to check if we have paid rent already, and if we have enough money to pay it
-if ????(has_paid_rent) and ???? >= ????:
+if not(has_paid_rent) and money_in_bank >=rent_amount :
     money_in_bank = money_in_bank - rent_amount
     has_paid_rent = True
 
 print(money_in_bank)
 print(has_paid_rent)
-"""
 
 
-"""
+
+
 # Fix the mistake:
 a = 1
 b = 2
-if a + b == 3
+if a + b == 3:
     print("I love maths!")
-"""
 
 
-"""
+
+
 # Fix the mistakes
-name == Rachel
-if name == Kyle
-print I love baseball!
-else name == Lilidh
-print I love hockey
-else
-print I love sports!
-"""
+name = "Rachel"
+if name =="Kyle":
+    print ("I love baseball!")
+elif name == "Lilidh":
+    print ("I love hockey")
+else:
+    print ("I love sports!")
 
 
-"""
+
+
 # Using if/elif/else statements, update the clothing variable
 # For swimming and diving, you will need a swimsuit
 # For gymnastics, you will need a leotard
 # For any other, you will need shorts
 
-clothing = None
-activity = "swimming"
+clothing="shorts"
+activity = "running"
+
+if activity=="swimming" or activity=="diving":
+    clothing=="swimsuit"
+elif activity=="gymnastics":
+    clothing=="leotard"
+else:
+    clothing=="shorts"
 
 # Replace this
 # With your
@@ -98,7 +105,7 @@ activity = "swimming"
 
 # Try replacing the activity variable at the top, so you can check it your code is working as expected
 print(f"For {activity}, I will need to wear {clothing}")
-"""
+
 
 
 
