@@ -11,14 +11,16 @@
 
 
 # 2) Now that you have created your function, you need to import the file that it's in. Do that below:
-from ???? import ????
+#from workshop_3.src import maths
+
+def square(number):
+    return number ** 2
 
 
 # 3) Now define a list of numbers. They can be any numbers:
-list_of_numbers = ????
+list_of_numbers = (1,2,3,4,5,6,7,8,9,10)
 
 
 # 4) Finally, update the code below so that you loop through list_of_numbers, get the square of each one using your function, and then print it:
-for ????
-    ????
-    print(????)
+square_numbers = [square(num) for num in list_of_numbers]
+print(square_numbers)
