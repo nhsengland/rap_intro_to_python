@@ -18,3 +18,20 @@ def add_two_numbers(first_number, second_number):
     sum_of_numbers = first_number + second_number
 
     return sum_of_numbers
+
+def square_a_number(number):
+    """
+    Squares the number and returns the result.
+
+    Parameters
+    -----------
+    number (int) : number to square
+
+    Returns
+    ---------
+    int : square of the number 
+    
+    """
+    result = number **2
+
+    return result
