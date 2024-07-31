@@ -1,5 +1,5 @@
 # PySpark
-pyspark==3.2.1
+pyspark==3.2.2
 
 # Requests - used to collect data
 requests
