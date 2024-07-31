@@ -7,7 +7,7 @@ requests
 # Python version = 3.10.*
 
 # Data manipulation
-numpy==1.21.5
+numpy==1.22.0
 pandas==1.3.5
 
 # SQL connections
