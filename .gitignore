@@ -1,3 +1,6 @@
 __pycache__/
 workshop_4/data_in/
 !workshop_4/data_in/.gitkeep
+output_folder
+example.docx
+modified_template.docx
