@@ -1,6 +1,5 @@
 {
     "image": "mcr.microsoft.com/devcontainers/universal:2",
-    "postCreateCommand": "",
     "customizations": {
       "vscode": {
         "extensions": [
@@ -8,5 +7,11 @@
           "ms-python.python"
         ]
       }
-    }
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/java:1": {
+        "version": "8"
+      }
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
   }
