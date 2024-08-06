@@ -52,6 +52,7 @@ Includes learning on:
 
 Includes learning on:
 
+    - Dictionaries in python
     - How to create a docx file
-    - How to access an exisiting docx file
+    - How to access an existing docx file
     - How to replace placeholder values with variables
