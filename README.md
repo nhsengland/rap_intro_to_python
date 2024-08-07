@@ -39,3 +39,20 @@ Includes learning on:
     - Recap of workshop 2
     - Functions
     - Importing files
+
+**Workshop 4: Intro to PySpark**
+
+Includes learning on:
+
+    - Starting a spark session
+    - Displaying data
+    - Simple PySpark methods
+
+**Workshop 5: Intro to python-docx**
+
+Includes learning on:
+
+    - Dictionaries in python
+    - How to create a docx file
+    - How to access an existing docx file
+    - How to replace placeholder values with variables
