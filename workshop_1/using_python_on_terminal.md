@@ -11,7 +11,7 @@ To check if Python is installed and to see the version, open your terminal (we'l
 ```
 python --version
 ```
-![](images/python_version.png.png)
+![](images/python_version.png)
 
 
 ## Running Python
