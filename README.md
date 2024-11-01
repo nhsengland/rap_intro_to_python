@@ -20,11 +20,12 @@ Includes learning on:
     - Logical Operators
     
     
-**Workshop 2: Using python files to run code**
+**Workshop 2: Notebooks, Conditions and Loops**
 
 Includes learning on:
 
     - Recap of workshop 1
+    - Notebooks
     - Conditional Logic
     - Loops
 
@@ -35,7 +36,6 @@ And homework to reinforce these concepts.
 
 Includes learning on:
 
-    - Notebooks
     - Recap of workshop 2
     - Functions
     - Importing files
@@ -56,3 +56,7 @@ Includes learning on:
     - How to create a docx file
     - How to access an existing docx file
     - How to replace placeholder values with variables
+
+**Workshop 6: Unit Testing**
+
+Using pytest to automate testing on functions
