@@ -1,9 +1,8 @@
 # rap_intro_to_python
 Intro to Python - by the Data Science RAP team
 
-This repository currently contains 3 workshops for introducing users to Python, from a very basic level.
+This repository currently contains 6 workshops for introducing users to Python, from a very basic level.
  
-
 
 **Workshop 1: Python on the Terminal**
 
@@ -59,4 +58,7 @@ Includes learning on:
 
 **Workshop 6: Unit Testing**
 
-Using pytest to automate testing on functions
+Includes learning on:
+
+    - Why testing is important
+    - How to use pytest to automate unit tests
