@@ -1,9 +1,8 @@
 # rap_intro_to_python
 Intro to Python - by the Data Science RAP team
 
-This repository currently contains 3 workshops for introducing users to Python, from a very basic level.
+This repository currently contains 6 workshops for introducing users to Python, from a very basic level.
  
-
 
 **Workshop 1: Python on the Terminal**
 
@@ -20,11 +19,12 @@ Includes learning on:
     - Logical Operators
     
     
-**Workshop 2: Using python files to run code**
+**Workshop 2: Notebooks, Conditions and Loops**
 
 Includes learning on:
 
     - Recap of workshop 1
+    - Notebooks
     - Conditional Logic
     - Loops
 
@@ -35,7 +35,6 @@ And homework to reinforce these concepts.
 
 Includes learning on:
 
-    - Notebooks
     - Recap of workshop 2
     - Functions
     - Importing files
@@ -56,3 +55,10 @@ Includes learning on:
     - How to create a docx file
     - How to access an existing docx file
     - How to replace placeholder values with variables
+
+**Workshop 6: Unit Testing**
+
+Includes learning on:
+
+    - Why testing is important
+    - How to use pytest to automate unit tests

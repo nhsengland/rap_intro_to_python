@@ -14,7 +14,7 @@ pwd - to check your present directory
 ls - to see the list of files available in your current directory
 cd {folder_name} - to change your current directory
 
-To run this file:
+To run a file from the terminal:
 python {path/to/file}
 
 

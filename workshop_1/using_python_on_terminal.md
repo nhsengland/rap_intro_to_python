@@ -146,7 +146,7 @@ Not quote angry enough....
 Let's make it all uppercase
 
 ```
-feeling = feeling.uppercase()
+feeling = feeling.upper()
 ```
 
 Try returning that now:
@@ -172,8 +172,8 @@ Logical Operators are used to combine comparison statements. They are ```and```,
 Try out the ones below - what results do you think you will get?
 
 ```
-a == 10
-b == 20
+a = 10
+b = 20
 a >= 1 and b >= 10
 ???
 a >= 100 or b <= 100
