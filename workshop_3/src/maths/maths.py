@@ -18,3 +18,25 @@ def add_two_numbers(first_number, second_number):
     sum_of_numbers = first_number + second_number
 
     return sum_of_numbers
+
+
+def square_a_number(number):
+    """
+    Multiplies a number by itself and returns the result.
+
+    Parameters
+    ----------
+
+    number (float) : the number to multiply by itself
+    
+
+    Returns
+    -------
+
+    float : the number multiplied by itself
+
+    """
+    
+    square_of_number = number * number
+
+    return square_of_number
