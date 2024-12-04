@@ -39,13 +39,14 @@ Includes learning on:
     - Functions
     - Importing files
 
-**Workshop 4: Intro to PySpark**
+**Workshop 4: Intro to Data Manipulation**
 
+Choose Pyspark or Pandas!
 Includes learning on:
 
     - Starting a spark session
     - Displaying data
-    - Simple PySpark methods
+    - Simple PySpark/pandas methods
 
 **Workshop 5: Intro to python-docx**
 
