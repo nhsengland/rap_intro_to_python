@@ -1,7 +1,7 @@
 # rap_intro_to_python
 Intro to Python - by the Data Science RAP team
 
-This repository currently contains 6 workshops for introducing users to Python, from a very basic level.
+This repository currently contains 7 workshops for introducing users to Python, from a very basic level.
  
 
 **Workshop 1: Python on the Terminal**
@@ -63,3 +63,11 @@ Includes learning on:
 
     - Why testing is important
     - How to use pytest to automate unit tests
+
+
+**Workshop 7: Refactoring**
+
+Includes learning on:
+
+    - What refactoring is and why it's important
+    - How you can easily rework your code to improve it
