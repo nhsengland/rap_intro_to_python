@@ -7,3 +7,4 @@ output_folder
 example.docx
 modified_template.docx
 workshop_6/word_docs/gp_registrations_november.docx
+.pytest*
