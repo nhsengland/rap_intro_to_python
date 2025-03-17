@@ -39,6 +39,7 @@ Includes learning on:
     - Functions
     - Importing files
 
+
 **Workshop 4: Intro to Data Manipulation**
 
 Choose Pyspark or Pandas!
@@ -48,6 +49,7 @@ Includes learning on:
     - Displaying data
     - Simple PySpark/pandas methods
 
+
 **Workshop 5: Intro to python-docx**
 
 Includes learning on:
@@ -56,6 +58,7 @@ Includes learning on:
     - How to create a docx file
     - How to access an existing docx file
     - How to replace placeholder values with variables
+
 
 **Workshop 6: Unit Testing**
 
@@ -71,3 +74,11 @@ Includes learning on:
 
     - What refactoring is and why it's important
     - How you can easily rework your code to improve it
+
+
+**Workshop 8: Editing Excel files with openpyxl**
+
+Includes learning on:
+
+    - How to load Excel templates and edit them with Python
+    - How to insert DataFrames into Excel spreadsheets
